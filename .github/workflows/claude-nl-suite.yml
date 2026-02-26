@@ -11,7 +11,7 @@ env:
   UNITY_IMAGE: unityci/editor:ubuntu-2021.3.45f2-linux-il2cpp-3
 jobs:
   nl-suite:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
       JUNIT_OUT: reports/junit-nl-suite.xml
